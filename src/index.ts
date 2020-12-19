@@ -1,10 +1,10 @@
-interface A{
-    T1: string
+interface A<T>{
+    T1: T
 }
 interface B{
     T2: number
 }
-interface C extends A, B{
+interface C extends A<string>, B{
     T3:number[]
 }
 const u:C = {    //u变量必须同时实现interface A, interface B, interface C
