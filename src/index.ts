@@ -14,3 +14,4 @@ const u:C = {    //u变量必须同时实现interface A, interface B, interface 
 }
 
 console.log('123')
+console.log('456')
